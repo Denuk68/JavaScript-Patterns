@@ -1,4 +1,4 @@
-// https://refactoring.guru/uk/design-patterns/singleton
+// https://refactoring.guru/uk/design-patterns/factory-method
 
 class Tesla {
   constructor(model, price, color) {
@@ -8,7 +8,7 @@ class Tesla {
   }
   showCarInfo() {
     console.log(
-      `Model : ${this.model}\ Price : ${this.price}\ Color : ${this.color}\n`
+      `Model : ${this.model}\n Price : ${this.price}\n Color : ${this.color}\n`
     );
   }
 }
