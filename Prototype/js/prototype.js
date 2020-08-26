@@ -17,7 +17,7 @@ class Tesla{
           `Model : ${this.model}\n Price : ${this.price}\n Color : ${this.color}\n Autopilot : ${this.autopilot}\n`
         );
     }
-
+    
     setColor(color){
         this.color = color;
     }
